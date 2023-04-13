@@ -19,18 +19,6 @@ export const globalStyles = globalCss({
         fontWeight: 400,
     },
 
-    "@media (maxWidth: 720px)": {
-        html: {
-          fontSize: "87.5%", // vai gerar 14px;
-        },
-      },
-      
-    "@media (maxWidth: 1080px)": {
-    html: {
-        fontSize: "93.75%", // vai gerar 15px;
-    },
-    },
-
     button: {
         cursor: "pointer",
     },
@@ -38,6 +26,18 @@ export const globalStyles = globalCss({
     a: {
         color: "inherit",
         textDecoration: "none",
-    }
+    },
+
+    '@media (maxWidth: 720px)': {
+        html: {
+          fontSize: "87.5%", // vai gerar 14px;
+        },
+      },
+      
+    '@media (maxWidth: 1080px)': {
+    html: {
+        fontSize: "93.75%", // vai gerar 15px;
+    },
+    },
     
 });

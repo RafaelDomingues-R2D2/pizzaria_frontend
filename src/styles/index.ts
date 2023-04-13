@@ -24,10 +24,12 @@ export const {
         },
 
         fontSizes: {
-            md: "1.125rem",
-            lg: "1.25rem",
-            xl: "1.5rem",
-            "2xl": "2rem",
+            xsl: '1rem',
+            sl: '1.2rem',
+            md: '1.6rem',
+            lg: '2.4rem',
+            xlg: '3.2rem',
+            xxlg: '4.0rem'
         },
     }
 });
